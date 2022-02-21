@@ -19,10 +19,6 @@ class ModifyStocksViewController: UIViewController {
         setFruitLabels()
         setFruitSteppers()
         setSteppersOptions()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         patchData()
         configUI()
     }

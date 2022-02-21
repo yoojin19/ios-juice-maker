@@ -42,7 +42,7 @@ class ModifyStocksViewController: UIViewController {
         let stepperWidth = strawberryStepper.frame.size.width
         let stepperRelativeSize = labelWidth / ((labelWidth - stepperWidth) / 2 + stepperWidth)
         
-        for (stepper, fruit) in fruitsSteppers {
+        for (stepper, _) in fruitsSteppers {
             stepper.transform  = stepper.transform.scaledBy(x: stepperRelativeSize, y: stepperRelativeSize)
         }
     }
